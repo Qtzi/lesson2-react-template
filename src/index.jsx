@@ -61,7 +61,7 @@ class Board extends React.Component {
     if (winner) {
       status = 'Winner is ' + winner;
     } else {
-      status = 'seuraava belaaja: ' + (this.state.xIsNext ? 'X' : 'O');
+      status = 'next player: ' + (this.state.xIsNext ? 'X' : 'O');
     }
 
     return (
@@ -88,7 +88,7 @@ class Board extends React.Component {
           resetto
         </button>
         <button onClick={() => this.reset()}>
-          kääk
+          what is this?
         </button>
       </React.Fragment>
     );
@@ -104,7 +104,6 @@ class Game extends React.Component {
         </div>
         <div className="game-info">
           <div>{/* status */}</div>
-          <img></img>
           <ol>{/* TODO */}</ol>
         </div>
       </div>
