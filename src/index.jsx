@@ -88,7 +88,7 @@ class Board extends React.Component {
           resetto
         </button>
         <button onClick={() => this.reset()}>
-          what is this?
+          ok
         </button>
       </React.Fragment>
     );
